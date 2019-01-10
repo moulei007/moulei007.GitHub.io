@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="425 148 46 45" width="46pt" height="45pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2 
+    <dc:date>2019-01-10 03:17:45 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Times" font-size="25" panose-1="0 0 5 0 0 0 0 2 0 0" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="453.6133" cap-height="661.6211" ascent="750" descent="-250" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Times-Roman"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>版面 1</title>
+    <rect fill="white" width="851" height="672"/>
+    <g>
+      <title>图层 1</title>
+      <circle cx="448.2" cy="170.6" r="22.200036" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <text transform="translate(431.8421 155.6)" fill="black">
+        <tspan font-family="Times" font-size="25" font-weight="500" x=".18530273" y="24" textLength="32.629395">A·I</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
