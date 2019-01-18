@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="Test TitleTest subtitle">
-<meta name="keywords" content="first blog">
+  <meta name="description" content="这是一份python代码，实现将mask半透明显示在原图上。 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455import cv2import colorsysimport randomimport numpy as npdef apply_ma">
+<meta name="keywords" content="Python">
 <meta property="og:type" content="article">
-<meta property="og:title" content="first-post">
-<meta property="og:url" content="http://yoursite.com/2019/01/10/first-post/index.html">
+<meta property="og:title" content="apply_mask_on_image">
+<meta property="og:url" content="http://yoursite.com/2019/01/18/apply-mask-on-image/index.html">
 <meta property="og:site_name" content="A·I">
-<meta property="og:description" content="Test TitleTest subtitle">
+<meta property="og:description" content="这是一份python代码，实现将mask半透明显示在原图上。 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455import cv2import colorsysimport randomimport numpy as npdef apply_ma">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-10T08:43:05.684Z">
+<meta property="og:updated_time" content="2019-01-18T07:25:41.338Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="first-post">
-<meta name="twitter:description" content="Test TitleTest subtitle">
+<meta name="twitter:title" content="apply_mask_on_image">
+<meta name="twitter:description" content="这是一份python代码，实现将mask半透明显示在原图上。 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455import cv2import colorsysimport randomimport numpy as npdef apply_ma">
 
 
 
@@ -116,7 +116,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/01/10/first-post/">
+  <link rel="canonical" href="http://yoursite.com/2019/01/18/apply-mask-on-image/">
 
 
 
@@ -126,7 +126,7 @@
   };
 </script>
 
-  <title>first-post | A·I</title>
+  <title>apply_mask_on_image | A·I</title>
   
 
 
@@ -329,7 +329,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/10/first-post/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/18/apply-mask-on-image/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Leila Mou">
@@ -346,7 +346,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">first-post
+          <h1 class="post-title" itemprop="name headline">apply_mask_on_image
 
               
             
@@ -372,7 +372,7 @@
                 
               
 
-              <time title="创建时间：2019-01-10 16:41:48 / 修改时间：16:43:05" itemprop="dateCreated datePublished" datetime="2019-01-10T16:41:48+08:00">2019-01-10</time>
+              <time title="创建时间：2019-01-18 15:18:50 / 修改时间：15:25:41" itemprop="dateCreated datePublished" datetime="2019-01-18T15:18:50+08:00">2019-01-18</time>
             
 
             
@@ -410,7 +410,9 @@
       
 
       
-        <h1 id="Test-Title"><a href="#Test-Title" class="headerlink" title="Test Title"></a>Test Title</h1><h2 id="Test-subtitle"><a href="#Test-subtitle" class="headerlink" title="Test subtitle"></a>Test subtitle</h2>
+        <p>这是一份python代码，实现将mask半透明显示在原图上。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line"><span class="keyword">import</span> colorsys</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">apply_mask</span><span class="params">(image, mask, color, alpha=<span class="number">0.5</span>)</span>:</span></span><br><span class="line">    <span class="string">"""</span></span><br><span class="line"><span class="string">    apply mask (region) to original image</span></span><br><span class="line"><span class="string">    :param image: original image</span></span><br><span class="line"><span class="string">    :param mask: your mask</span></span><br><span class="line"><span class="string">    :param color: which color would like to apply of mask</span></span><br><span class="line"><span class="string">    :param alpha: trade-off</span></span><br><span class="line"><span class="string">    :return: merged image</span></span><br><span class="line"><span class="string">    """</span></span><br><span class="line">    <span class="keyword">for</span> channel <span class="keyword">in</span> range(<span class="number">3</span>):</span><br><span class="line">        image[:, :, channel] = np.where(mask &gt; <span class="number">0</span>,</span><br><span class="line">                                        image[:, :, channel] * (<span class="number">1</span> - alpha) + alpha * color[channel] * <span class="number">255</span>,</span><br><span class="line">                                        image[:, :, channel])</span><br><span class="line">    <span class="keyword">return</span> image</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">random_color</span><span class="params">(N, bright=True)</span>:</span></span><br><span class="line">    <span class="string">"""</span></span><br><span class="line"><span class="string">    generate colors of mask, create hsv color and convert it to rgb format</span></span><br><span class="line"><span class="string">    :param N: classes number</span></span><br><span class="line"><span class="string">    :param bright: brightness of the Nth color</span></span><br><span class="line"><span class="string">    :return: RGB color</span></span><br><span class="line"><span class="string">    """</span></span><br><span class="line">    brightness = <span class="number">1.0</span> <span class="keyword">if</span> bright <span class="keyword">else</span> <span class="number">0.7</span></span><br><span class="line">    hsv = [(i / N, <span class="number">1</span>, brightness) <span class="keyword">for</span> i <span class="keyword">in</span> range(N)]</span><br><span class="line">    colors = list(map(<span class="keyword">lambda</span> c: colorsys.hsv_to_rgb(*c), hsv))</span><br><span class="line">    random.shuffle(colors)</span><br><span class="line">    <span class="keyword">return</span> colors</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    mask_path = <span class="string">'xxx'</span></span><br><span class="line">    image_path = <span class="string">'xxx'</span></span><br><span class="line">    classes_num = <span class="number">1</span></span><br><span class="line">    mask = cv2.imread(mask_path)</span><br><span class="line">    image = cv2.imread(image_path)</span><br><span class="line"></span><br><span class="line">    w, h, _ = image.shape</span><br><span class="line">    mask = cv2.resize(mask, (h, w))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># create colors</span></span><br><span class="line">    colors = random_color(N=classes_num)</span><br><span class="line">    <span class="comment"># get the first class' color</span></span><br><span class="line">    colors = colors[<span class="number">0</span>]</span><br><span class="line">    <span class="comment"># get mask value of the corresponding pixel's</span></span><br><span class="line">    mask = mask[:, :, <span class="number">0</span>]</span><br><span class="line">    image = apply_mask(image, mask, colors)</span><br><span class="line">    image = np.uint8(image)</span><br><span class="line">    cv2.imwrite(<span class="string">"xxx"</span>, image)</span><br></pre></td></tr></table></figure>
+
       
     </div>
 
@@ -433,7 +435,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/first-blog/" rel="tag"># first blog</a>
+            <a href="/tags/Python/" rel="tag"># Python</a>
           
         </div>
       
@@ -446,15 +448,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/01/10/pytorch-introduction/" rel="next" title="pytorch-introduction">
+                <i class="fa fa-chevron-left"></i> pytorch-introduction
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/01/10/pytorch-introduction/" rel="prev" title="pytorch-introduction">
-                pytorch-introduction <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -499,17 +501,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <div class="site-overview-wrap sidebar-panel">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -603,23 +596,6 @@
         </div>
       </div>
 
-      
-      <!--noindex-->
-        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-            
-            
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Test-Title"><span class="nav-number">1.</span> <span class="nav-text">Test Title</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Test-subtitle"><span class="nav-number">1.1.</span> <span class="nav-text">Test subtitle</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </div>
-      <!--/noindex-->
       
 
       

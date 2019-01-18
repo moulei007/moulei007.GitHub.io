@@ -96,17 +96,20 @@
 
 
 
-  <meta name="description" content="Including but not limited to paper sharing, application sharing, code sharing, machine learning, and deep learning.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+  <meta name="description" content="本文不在介绍PyTorch上浪费时间。本文的目的是记录怎么使用PyTorch进行训练模型。  PyTorch训练模型大致分为以下几个步骤：  定义模型 定义数据加载文件 定义训练文件  模型定义PyTorch在定义模型时，所有的类都继承nn.Module。我们只需要实现__init__()函数和forward()函数就可以了。在__init__()函数中定义需要模型需执行的操作，进行操作声明，">
+<meta name="keywords" content="PyTorch">
+<meta property="og:type" content="article">
+<meta property="og:title" content="pytorch-introduction">
+<meta property="og:url" content="http://yoursite.com/2019/01/10/pytorch-introduction/index.html">
 <meta property="og:site_name" content="A·I">
-<meta property="og:description" content="Including but not limited to paper sharing, application sharing, code sharing, machine learning, and deep learning.">
+<meta property="og:description" content="本文不在介绍PyTorch上浪费时间。本文的目的是记录怎么使用PyTorch进行训练模型。  PyTorch训练模型大致分为以下几个步骤：  定义模型 定义数据加载文件 定义训练文件  模型定义PyTorch在定义模型时，所有的类都继承nn.Module。我们只需要实现__init__()函数和forward()函数就可以了。在__init__()函数中定义需要模型需执行的操作，进行操作声明，">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-10T09:15:46.688Z">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005CmS3Mly1fz1v8gci8cj30a604ojrd.jpg">
+<meta property="og:updated_time" content="2019-01-10T14:49:32.010Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
-<meta name="twitter:description" content="Including but not limited to paper sharing, application sharing, code sharing, machine learning, and deep learning.">
+<meta name="twitter:title" content="pytorch-introduction">
+<meta name="twitter:description" content="本文不在介绍PyTorch上浪费时间。本文的目的是记录怎么使用PyTorch进行训练模型。  PyTorch训练模型大致分为以下几个步骤：  定义模型 定义数据加载文件 定义训练文件  模型定义PyTorch在定义模型时，所有的类都继承nn.Module。我们只需要实现__init__()函数和forward()函数就可以了。在__init__()函数中定义需要模型需执行的操作，进行操作声明，">
+<meta name="twitter:image" content="http://ww1.sinaimg.cn/large/005CmS3Mly1fz1v8gci8cj30a604ojrd.jpg">
 
 
 
@@ -115,7 +118,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/">
+  <link rel="canonical" href="http://yoursite.com/2019/01/10/pytorch-introduction/">
 
 
 
@@ -125,7 +128,7 @@
   };
 </script>
 
-  <title>tags | A·I</title>
+  <title>pytorch-introduction | A·I</title>
   
 
 
@@ -249,7 +252,7 @@
         
         
           
-          <li class="menu-item menu-item-tags menu-item-active">
+          <li class="menu-item menu-item-tags">
 
     
     
@@ -308,70 +311,182 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/10/pytorch-introduction/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Leila Mou">
+      <meta itemprop="description" content="Including but not limited to paper sharing, application sharing, code sharing, machine learning, and deep learning.">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="A·I">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">tags
-
-</h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
+          <h1 class="post-title" itemprop="name headline">pytorch-introduction
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-01-10 22:36:01 / 修改时间：22:49:32" itemprop="dateCreated datePublished" datetime="2019-01-10T22:36:01+08:00">2019-01-10</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
           
-        
-      </div>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p><img src="http://ww1.sinaimg.cn/large/005CmS3Mly1fz1v8gci8cj30a604ojrd.jpg" alt=""></p>
+<blockquote>
+<p>本文不在介绍PyTorch上浪费时间。本文的目的是记录怎么使用PyTorch进行训练模型。</p>
+</blockquote>
+<p>PyTorch训练模型大致分为以下几个步骤：</p>
+<ul>
+<li>定义模型</li>
+<li>定义数据加载文件</li>
+<li>定义训练文件</li>
+</ul>
+<h1 id="模型定义"><a href="#模型定义" class="headerlink" title="模型定义"></a>模型定义</h1><p>PyTorch在定义模型时，所有的类都继承<code>nn.Module</code>。我们只需要实现<code>__init__()</code>函数和<code>forward()</code>函数就可以了。在<code>__init__()</code>函数中定义需要模型需执行的操作，进行操作声明，在<code>forward()</code>函数中定义具体的数据运算。以<strong>UNet</strong>为例：</p>
+
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/PyTorch/" rel="tag"># PyTorch</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/01/10/first-post/" rel="next" title="first-post">
+                <i class="fa fa-chevron-left"></i> first-post
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/01/18/apply-mask-on-image/" rel="prev" title="apply_mask_on_image">
+                apply_mask_on_image <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
   </div>
 
 
@@ -401,8 +516,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -496,6 +620,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#模型定义"><span class="nav-number">1.</span> <span class="nav-text">模型定义</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
